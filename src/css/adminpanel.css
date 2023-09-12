@@ -1,0 +1,95 @@
+.admin-panel {
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+}
+
+.admin-panel-row {
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.admin-panel-row h2 {
+  margin-top: 1.5rem;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.admin-panel-row h2 b {
+  color: var(--highlight2);
+}
+
+.admin-panel-text {
+  width: 200%;
+  height: 36px;
+  margin-top: 1.5rem;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.admin-panel-textarea {
+  width: 220%;
+  height: 200px;
+  margin-top: 1.5rem;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow-y: scroll;
+}
+
+.admin-panel-number {
+  width: 100%;
+  height: 36px;
+  text-align: right;
+  margin-top: 1.5rem;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.adminpanel-range {
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .admin-panel-text {
+    width: 100%;
+    height: 36px;
+    margin-top: 1.5rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .admin-panel-textarea {
+    width: 100%;
+    height: 200px;
+    margin-top: 1.5rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow-y: scroll;
+  }
+}/*# sourceMappingURL=adminpanel.css.map */

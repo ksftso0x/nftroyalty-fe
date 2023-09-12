@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap");
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: var(--sky) transparent;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 4px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--sky);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--sky2);
+  border-radius: 10px;
+  border: 3px none rgba(255, 255, 255, 0);
+}
+
+:root {
+  --highlight: #FF5F9E;
+  --highlight2: #E90064;
+  --dark: #06041a;
+  --dark2: #03020f;
+  --sky: #1b1b1b;
+  --sky2: #1e1d24;
+  --glass: #3d54685e;
+  --font: #ffffff;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-shadow: 0 0 5px var(--dark2);
+  z-index: 1;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--font);
+  text-shadow: var(--dark2) 3px 3px 3px;
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+footer {
+  width: 100%;
+  padding-bottom: 1em;
+}
+footer p {
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--font);
+}
+
+main {
+  width: 100%;
+}/*# sourceMappingURL=index.css.map */
+
+.nft-team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  background-color: var(--glass);
+  border-color: var(--highlight);
+  box-shadow: var(--highlight) 0px 0px 10px;
+  border-style: solid;
+  border-width: 0.15rem;
+  border-radius: 0.5rem;
+  width: 20rem;
+  overflow: hidden;
+}
+
+.disabled {
+  display: none;
+}
+
+.wait {
+  position: absolute;
+  z-index: 10;
+  .fa-spin {
+    color: var(--highlight);
+    filter: drop-shadow(0 0 5px var(--highlight));
+  }
+}
+
+.gray {
+  filter: brightness(0.25) saturate(0.5);
+  pointer-events: none;
+}

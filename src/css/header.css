@@ -1,0 +1,29 @@
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  position: fixed;
+  z-index: 2;
+}
+
+header nav {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: var(--glass);
+  border-color: var(--highlight);
+  box-shadow: var(--highlight) 0px 0px 10px;
+  border-style: solid;
+  border-width: 0.15rem;
+  border-radius: 0rem;
+  border-top-width: 0rem;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 1rem;
+} /*# sourceMappingURL=header.css.map */
